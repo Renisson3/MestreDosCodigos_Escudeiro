@@ -1,0 +1,34 @@
+1. Em quais linguagens o C# foi inspirado?
+
+R: C# foi ispirada em três linguaguens: C, C++ e Java. Do C herdou sua sintaxe,
+muitas palavras reservadas e operadores. De C++ herdou o modelo de objetos.
+E do Java teve muita influencia na parte de verificação de erros tem tempo de execução,
+segurança e gerenciamento da execução. Pode se dizer que o C# reune a segurança de
+tipos do Java e a potencia do C++.
+
+2. Inicialmente o C# foi criado para qual finalidade?
+
+R: O .NET foi criado para suprimir um dos maiores problemas de interoperabilidade das lingaguens
+de programação com o sistema Windows.Um exemplo era o Java, que a apesar de rodar no Windows
+com sua JVM, a Microsoft sentia necessidade de corrigir esse problema. Então a Microsoft montou uma
+equipe para desenvolver em sua estrategia global uma linguagem que tivesse total integração com o
+sistema Windows e nomeou o arquiteto-chefe Anders Hejlsberg, um grande especialista mundial
+na linguagem de programação.
+
+3.Quais os principais motivos para a Microsoft ter migrado para o Core?
+
+R: A necessidade de cruzar plataformas, ou seja, ter uma linguagem capaz de ser executada
+em Windows, macOS e Linux. Modernizar a linguagem, colocando por exemplo conceitos como:
+programação assíncrona e estruturas e recursos para contêineres. Consistencias entre ambientes
+para que o mesmo codigo que for executado em uma plataformar x64, x86 ou ARM tenha o mesmo resultado.
+A Flexibilidade que o .Net core disponibiliza com este recursos, permite que a Microsoft adentre em
+varios mercados da tecnologia.
+
+4.Cite as principais diferenças entre .Net Full Framework e .Net Core?
+
+R:	- O .NET Core é multi-plataforma, ou seja, pode ser executado em Windows, Linux ou macOS.
+	- O .NET Core permite a sua utilização em contêineres do Docker por exemplo.
+	- O .NET Core é Open-Source.
+	- O .NET Core suporta UWP.
+
+
