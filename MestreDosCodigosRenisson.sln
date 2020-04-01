@@ -3,30 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao01", "Questao01\Questao01.csproj", "{2E869C9E-4765-46F4-8C26-23FCC411769F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao01", "Questao01\Questao01.csproj", "{2E869C9E-4765-46F4-8C26-23FCC411769F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Respostas Das Questoes Teoricas", "Respostas Das Questoes Teoricas", "{D3FE3FDC-D6C3-4636-9242-ACAEEC02727E}"
 	ProjectSection(SolutionItems) = preProject
 		Respostas.txt = Respostas.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao02", "Questao02\Questao02.csproj", "{9CC50059-CF19-4639-8502-00B797138159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao02", "Questao02\Questao02.csproj", "{9CC50059-CF19-4639-8502-00B797138159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao03", "Questao03\Questao03.csproj", "{A03281B6-04CD-47DF-A710-F7D33FF0377D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao03", "Questao03\Questao03.csproj", "{A03281B6-04CD-47DF-A710-F7D33FF0377D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao04", "Questao04\Questao04.csproj", "{12574B27-118D-4D40-B78C-43FD1E082AF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao04", "Questao04\Questao04.csproj", "{12574B27-118D-4D40-B78C-43FD1E082AF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao05", "Questao05\Questao05.csproj", "{8CB82C3D-4B19-40D3-9A1E-EFD3916AF14B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao05", "Questao05\Questao05.csproj", "{8CB82C3D-4B19-40D3-9A1E-EFD3916AF14B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao06", "Questao06\Questao06.csproj", "{E2F56285-FBC6-4C54-BF15-92BDB79C4206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao06", "Questao06\Questao06.csproj", "{E2F56285-FBC6-4C54-BF15-92BDB79C4206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao07", "Questao07\Questao07.csproj", "{AD1E8EF5-EF22-4386-9236-67A734737043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao07", "Questao07\Questao07.csproj", "{AD1E8EF5-EF22-4386-9236-67A734737043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao08", "Questao08\Questao08.csproj", "{F2042500-BC79-4327-AB6B-03EAB1CC4770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao08", "Questao08\Questao08.csproj", "{F2042500-BC79-4327-AB6B-03EAB1CC4770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questao09", "Questao09\Questao09.csproj", "{C7C22BA8-8D28-4839-A21F-139C4DC41FE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao09", "Questao09\Questao09.csproj", "{C7C22BA8-8D28-4839-A21F-139C4DC41FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestaoPOO01", "QuestaoPOO01\QuestaoPOO01.csproj", "{46DA3101-F8DF-4830-8398-08F7D1D54604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestaoPOO02", "QuestaoPOO01\QuestaoPOO02.csproj", "{46DA3101-F8DF-4830-8398-08F7D1D54604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestaoPOO03", "QuestaoPOO03\QuestaoPOO03.csproj", "{B0E6D097-1DD6-4C9E-A325-FBCFA308E2E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestaoPOO04", "QuestaoPOO04\QuestaoPOO04.csproj", "{C535035F-9D24-49A5-94FD-39D6D856614C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoMSTest", "ProjetoMSTest\ProjetoMSTest.csproj", "{8798E09E-52C8-45E4-B206-CEBB39B58769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoNUnit", "ProjetoNUnit\ProjetoNUnit.csproj", "{6F49A4BD-FCD5-4AC6-AE7D-C7EB900907DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +82,22 @@ Global
 		{46DA3101-F8DF-4830-8398-08F7D1D54604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46DA3101-F8DF-4830-8398-08F7D1D54604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46DA3101-F8DF-4830-8398-08F7D1D54604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E6D097-1DD6-4C9E-A325-FBCFA308E2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E6D097-1DD6-4C9E-A325-FBCFA308E2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E6D097-1DD6-4C9E-A325-FBCFA308E2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E6D097-1DD6-4C9E-A325-FBCFA308E2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C535035F-9D24-49A5-94FD-39D6D856614C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C535035F-9D24-49A5-94FD-39D6D856614C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C535035F-9D24-49A5-94FD-39D6D856614C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C535035F-9D24-49A5-94FD-39D6D856614C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8798E09E-52C8-45E4-B206-CEBB39B58769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8798E09E-52C8-45E4-B206-CEBB39B58769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8798E09E-52C8-45E4-B206-CEBB39B58769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8798E09E-52C8-45E4-B206-CEBB39B58769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F49A4BD-FCD5-4AC6-AE7D-C7EB900907DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F49A4BD-FCD5-4AC6-AE7D-C7EB900907DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F49A4BD-FCD5-4AC6-AE7D-C7EB900907DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F49A4BD-FCD5-4AC6-AE7D-C7EB900907DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

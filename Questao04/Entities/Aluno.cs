@@ -1,4 +1,4 @@
-﻿namespace Questao04.Entitys
+﻿namespace Questao04.Entities
 {
     public class Aluno
     {
