@@ -1,0 +1,30 @@
+1. O que é POO?
+R:	POO significa Programação Orientada a Objetos. O POO veio para quebrar paradigma da programação estruturada e 
+permitir a manipulação de objetos, a herança, polimorfismo, encapsulamento e classes.
+	Esse paradigma de objetos permite expandir a maneira em que os softwares podem ser desenvolvidos, facilitando 
+o reaproveitamento de código e evitando códigos duplicados na construção dos Softwares.
+
+2.O que é polimorfismo?
+R:	O polimorfismo permite a utilização de objetos abstratos para determinar o comportamento dos objetos concretos.
+Isso permite ter um melhor reaproveitamento de código e evitar erros ou divergências na implementação das classes concretas.
+
+3.O que é abstração?
+R:	É a capacidade de transmitir características de um objeto "MAIOR" para uma entidade "MENORES" existente na modelagem de software.
+	Um exemplo é uma Classe chamada PESSOA, onde um funcionário é um cliente são uma Pessoa. Logo devem ter as características de uma pessoa.
+
+4.O que é encapsulamento?
+R:	Encapsulamento pode ser visto como uma forma de dividir propriedades na orientação a objetos. Restringindo atributos, funções ou ações a objetos específicos. Utilizando o exemplo acima se quisermos restringir uma método de mostrar idade a entidade PESSOA podemos definir como private, assim mesmo que funcionario herde de pessoa ele não terá acesso a este método. 
+São utilizadas as palavras reservadas private, public e protected para definir o acesso. Onde public permite acesso aberto, private acesso privado e protected acesso apenas a membros que herdarem da entidade.
+
+5.Quando usar uma classe abstrata e quando devo usar uma interface?
+R:	As interfaces são interessantes para criar um "Contrato" para a entidade a qual será desenvolvida. Isso permite obrigar a criação de métodos que devem ser implementados de qualquer forma. 
+A classe abstrata permite o reaproveitamento de código e métodos por meio de herança. Um bom exemplo para classes abstratas é o exemplo citado acima de PESSOA.
+
+6.O que faz as interfaces IDisposable, IComparable, ICloneable e IEnumerable?
+R:	•	IDisposable: Utilizado para liberar recursos não gerenciáveis (EX: Forçar a coleta de lixo);
+	•	IComparable: Implementada para que os tipos e valores possam ser ordenados ou classificados. O CompareTo é um bom exemplo do uso dessa interface;
+	•	ICloneable: Permite criar uma cópia de um objeto existente e fornecer sua implementação personalizada;
+	•	IEnumerable: Essa interface é a base de todas as coleções não genéricas que podem ser enumeradas. Implementar permite utilizar recursos como foreach.
+
+7.Existe herança múltipla (de classes) em C#?
+R:	Não é permitido.
