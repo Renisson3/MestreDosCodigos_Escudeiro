@@ -28,6 +28,12 @@ namespace QuestaoPOO03.Entities
             }
         }
 
+        public override bool Depositar(double valor)
+        {
+            Saldo += valor - TaxaDeOperacao;
+            return true;
+        }
+
         public void MostrarDados()
         {
             var culture = CultureInfo.CreateSpecificCulture("pt-BR");

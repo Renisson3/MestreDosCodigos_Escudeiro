@@ -15,9 +15,12 @@ namespace QuestaoPOO04
             Console.WriteLine("----------------------------------------------------");
             Console.WriteLine($"Televisão ligada no Canal {controle.Televisao.Canal} e no Volume {controle.Televisao.Volume}");
             Console.WriteLine("----------------------------------------------------");
-            Console.WriteLine($"Trocando Canal da Televisão para 30");
-            controle.TrocarCanal(30);
+            Console.WriteLine($"Aumentando Canal da Televisão");
+            controle.AumentarCanal();
+            Console.WriteLine($"Televisão ligada no Canal {controle.Televisao.Canal} e no Volume {controle.Televisao.Volume}");
             Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine($"Diminuindo Canal da Televisão");
+            controle.DiminuirCanal();
             Console.WriteLine($"Televisão ligada no Canal {controle.Televisao.Canal} e no Volume {controle.Televisao.Volume}");
             Console.WriteLine("----------------------------------------------------");
             Console.WriteLine($"Aumentando o Volume da Televisão...");

@@ -7,10 +7,6 @@
 
         public abstract bool Sacar(double valor);
 
-        public bool Depositar(double valor)
-        {
-            Saldo += valor;
-            return true;
-        }
+        public abstract bool Depositar(double valor);
     }
 }

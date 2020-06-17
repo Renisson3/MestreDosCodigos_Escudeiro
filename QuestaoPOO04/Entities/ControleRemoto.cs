@@ -19,9 +19,14 @@
             Televisao.Volume--;
         }
 
-        public void TrocarCanal(int canal)
+        public void AumentarCanal()
         {
-            Televisao.Canal = canal;
+            Televisao.Canal++;
+        }
+
+        public void DiminuirCanal()
+        {
+            Televisao.Canal--;
         }
     }
 }

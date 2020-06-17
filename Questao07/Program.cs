@@ -15,17 +15,11 @@ namespace Questao07
 
                 var lista = new List<decimal>();
 
-                Console.WriteLine("Digite o 1º Valor: ");
-                lista.Add(Convert.ToInt32(Console.ReadLine()));
-
-                Console.WriteLine("Digite o 2º Valor: ");
-                lista.Add(Convert.ToInt32(Console.ReadLine()));
-
-                Console.WriteLine("Digite o 3º Valor: ");
-                lista.Add(Convert.ToInt32(Console.ReadLine()));
-
-                Console.WriteLine("Digite o 4º Valor: ");
-                lista.Add(Convert.ToInt32(Console.ReadLine()));
+                while (lista.Count < 4)
+                {
+                    Console.WriteLine($"Digite o {lista.Count + 1}º Valor: ");
+                    lista.Add(Convert.ToInt32(Console.ReadLine()));
+                }
 
                 var aux = lista.Where(x => (x % 2) == 0).ToList();
 

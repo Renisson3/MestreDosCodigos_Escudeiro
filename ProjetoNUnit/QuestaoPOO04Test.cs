@@ -39,11 +39,19 @@ namespace ProjetoNUnit
         }
 
         [Test]
-        public void TesteTrocarCanal()
+        public void TesteAumentarCanal()
         {
             var controle = new ControleRemoto(new Televisao(10, 20));
-            controle.TrocarCanal(20);
-            Assert.That(20, Is.EqualTo(controle.Televisao.Canal));
+            controle.AumentarCanal();
+            Assert.That(11, Is.EqualTo(controle.Televisao.Canal));
+        }
+
+        [Test]
+        public void TesteDiminuirCanal()
+        {
+            var controle = new ControleRemoto(new Televisao(10, 20));
+            controle.DiminuirCanal();
+            Assert.That(9, Is.EqualTo(controle.Televisao.Canal));
         }
     }
 }

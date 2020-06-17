@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Questao02.Entitys;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,19 +13,30 @@ namespace Questao02
             Console.OutputEncoding = Encoding.UTF8;
 
             var opcao = 1;
-            var contador = 1;
-            Dictionary<int, decimal> funcionarios = new Dictionary<int, decimal>();
+            var funcionarios = new List<Funcionario>();
 
             while (opcao != 0)
             {
-                Console.WriteLine($"Digite o valor do salário do {contador}º funcionário ou dígite PARAR para exibir os resultados:");
+                var funcionario = new Funcionario();
+
+                Console.WriteLine($"Digite o nome do funcionário ou dígite PARAR para exibir os resultados:");
+                funcionario.Nome = Console.ReadLine();
+
+                if (funcionario.Nome.Equals("PARAR", StringComparison.OrdinalIgnoreCase))
+                {
+                    opcao = 0;
+                    break;
+                }
+
+                Console.WriteLine($"Digite o valor do salário do {funcionario.Nome} funcionário ou dígite PARAR para exibir os resultados:");
                 var digito = Console.ReadLine();
-                if (!digito.Equals("PARAR", StringComparison.OrdinalIgnoreCase))
+
+                if (!digito.Equals("PARAR", StringComparison.CurrentCultureIgnoreCase))
                 {
                     if (decimal.TryParse(digito, out decimal valor))
                     {
-                        funcionarios.Add(contador, valor);
-                        contador++;
+                        funcionario.Salario = valor;
+                        funcionarios.Add(funcionario);
                     }
                     else
                     {
@@ -37,16 +49,16 @@ namespace Questao02
                 }
             }
 
-            if (funcionarios != null && funcionarios.Any())
+            if (funcionarios.Count > 0)
             {
-                var maioresSalarios = funcionarios.Where(x => x.Value == funcionarios.Values.Max()).ToList();
-                var menoresSalarios = funcionarios.Where(x => x.Value == funcionarios.Values.Min()).ToList();
+                var maioresSalarios = funcionarios.OrderByDescending(x => x.Salario).First();
+                var menoresSalarios = funcionarios.OrderBy(x => x.Salario).First();
                 Console.WriteLine($"O(s) maior(es) salário(s) é(são):" +
-                    $" Funcionário(s){string.Join("º, ", maioresSalarios.Select(f => f.Key))}º" +
-                    $" Salário R$:{maioresSalarios.First().Value}");
+                    $" Funcionário(s){maioresSalarios.Nome}," +
+                    $" Salário R$:{maioresSalarios.Salario}");
                 Console.WriteLine($"O(s) menor(es) salário(s) é(são):" +
-                    $" Funcionário(s){string.Join("º, ", menoresSalarios.Select(f => f.Key))}º" +
-                    $" Salário R$:{menoresSalarios.First().Value}");
+                    $" Funcionário(s){menoresSalarios.Nome}," +
+                    $" Salário R$:{menoresSalarios.Salario}");
             }
         }
     }

@@ -17,7 +17,8 @@ namespace QuestaoPOO03.Entities
 
         public override bool Sacar(double valor)
         {
-            if (Math.Abs(valor - Saldo) <= Limite)
+            var aux = Math.Abs(valor - Saldo + Limite);
+            if (aux >= 0)
             {
                 Saldo -= valor;
                 return true;
@@ -26,6 +27,12 @@ namespace QuestaoPOO03.Entities
             {
                 return false;
             }
+        }
+
+        public override bool Depositar(double valor)
+        {
+            Saldo += valor;
+            return true;
         }
 
         public void MostrarDados()

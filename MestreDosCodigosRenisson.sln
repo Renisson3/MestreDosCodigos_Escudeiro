@@ -7,6 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao01", "Questao01\Ques
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Respostas Das Questoes Teoricas", "Respostas Das Questoes Teoricas", "{D3FE3FDC-D6C3-4636-9242-ACAEEC02727E}"
 	ProjectSection(SolutionItems) = preProject
+		E:\OneDrive\Documentos DB1\Respostas Metre Dos Codigos Escudeiro.pdf = E:\OneDrive\Documentos DB1\Respostas Metre Dos Codigos Escudeiro.pdf
+		Respostas POO.txt = Respostas POO.txt
+		Respostas Testes.txt = Respostas Testes.txt
 		Respostas.txt = Respostas.txt
 	EndProjectSection
 EndProject

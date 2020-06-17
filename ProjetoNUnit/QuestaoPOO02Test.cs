@@ -12,7 +12,7 @@ namespace ProjetoNUnit
         {
             var pessoa = new Pessoa("Renisson Machado Santos", new DateTime(1991, 06, 17), 175);
             var idade = pessoa.CalcularIdade();
-            Assert.That(28, Is.EqualTo(idade));
+            Assert.That(29, Is.EqualTo(idade));
         }
 
         [Test]

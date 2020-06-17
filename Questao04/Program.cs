@@ -1,7 +1,6 @@
-﻿using Questao04.Entitys;
+﻿using Questao04.Entities;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace Questao04
@@ -38,9 +37,15 @@ namespace Questao04
                 }
             }
 
-            if (alunos?.Any() == true)
+            if (alunos.Count > 0)
             {
-                alunos.Where(x => x.Nota > 7).ToList().ForEach(f => Console.WriteLine($"{f.Nome} Nota: {f.Nota}"));
+                foreach (var aluno in alunos)
+                {
+                    if (aluno.Nota > 7)
+                    {
+                        Console.WriteLine($"{aluno.Nome} Nota: {aluno.Nota}");
+                    }
+                }
             }
         }
     }

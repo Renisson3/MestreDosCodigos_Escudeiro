@@ -12,7 +12,9 @@ namespace QuestaoPOO01
 
             var pessoa = new Pessoa("Renisson Machado Santos", new DateTime(1991, 06, 17), 175);
 
-            pessoa.ImprimirDados();
+            Console.WriteLine($"Nome: {pessoa.Nome}");
+            Console.WriteLine($"Data de Nascimento: {pessoa.DataNascimento:dd/MM/yyyy}");
+            Console.WriteLine($"Altura: {pessoa.Altura}");
             Console.WriteLine($"Idade: {pessoa.CalcularIdade()}");
         }
     }
