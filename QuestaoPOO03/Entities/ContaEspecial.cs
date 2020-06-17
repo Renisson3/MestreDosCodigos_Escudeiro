@@ -17,8 +17,7 @@ namespace QuestaoPOO03.Entities
 
         public override bool Sacar(double valor)
         {
-            var aux = Math.Abs(valor - Saldo + Limite);
-            if (aux >= 0)
+            if (Math.Abs(valor - Saldo + Limite) >= 0)
             {
                 Saldo -= valor;
                 return true;
