@@ -39,11 +39,19 @@ namespace ProjetoMSTest
         }
 
         [TestMethod]
-        public void TesteTrocarCanal()
+        public void TesteAumentarCanal()
         {
             var controle = new ControleRemoto(new Televisao(10, 20));
-            controle.TrocarCanal(20);
-            Assert.AreEqual(20, controle.Televisao.Canal);
+            controle.AumentarCanal();
+            Assert.AreEqual(11, controle.Televisao.Canal);
+        }
+
+        [TestMethod]
+        public void TesteDiminuirCanal()
+        {
+            var controle = new ControleRemoto(new Televisao(10, 20));
+            controle.DiminuirCanal();
+            Assert.AreEqual(9, controle.Televisao.Canal);
         }
     }
 }
